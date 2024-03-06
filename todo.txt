@@ -1,0 +1,14 @@
+Make my own excel importer
+	using Xeno probably
+Use Text instead of String
+Figure out what Table representation to use
+	? [Record], Record :: Map FieldName Value
+	? [Row] or [Column]
+	? Strictly typed columns
+	? Stricly typed extensible record -- table is record of columns
+Move Value to Data.Variant and Table to Data.Table
+Add Advantage module
+Add functionality for zip archives
+Add parsers for Basys output
+belu table creator
+Print table columns aligned

@@ -59,6 +59,22 @@ executable createFlks
     hs-source-dirs:   app
     default-language: Haskell2010
 
+executable hrecords
+    main-is:          hrecords.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:
+        base ^>=4.16.4.0,
+        uncle,
+        HList
+
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
 test-suite uncle-test
     default-language: Haskell2010
     type:             exitcode-stdio-1.0
